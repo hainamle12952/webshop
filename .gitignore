@@ -1,52 +1,27 @@
-# Prerequisites
-*.d
+.DS_Store
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
 
-# Linker output
-*.ilk
-*.map
-*.exp
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
 
-# Precompiled Headers
-*.gch
-*.pch
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+/vendor/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
